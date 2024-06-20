@@ -7,6 +7,6 @@ using namespace std;
 
 int main()
 {
-   // Start cde here
+   // Start code here
    return 0;
 }

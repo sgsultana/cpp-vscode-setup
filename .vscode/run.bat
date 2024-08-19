@@ -1,6 +1,6 @@
 @echo off
 REM Compile all the .cpp files and generate the executable
-g++ "%~dp0\..\*.cpp" -o "%~dp0\..\a.exe"
+g++ -g "%~dp0\..\*.cpp" -o "%~dp0\..\a.exe"
 
 REM Check if compilation was successful
 IF NOT ERRORLEVEL 1 (
